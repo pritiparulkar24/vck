@@ -4,8 +4,8 @@ import AboutPage from './pages/AboutPage';
 import CoursePage from './pages/CoursePage';
 import AddmissionPage from './pages/AdmissionPage';
 import ContactPage from './pages/ContactPage';
-import ChatbotComponent from './components/chatbot/chatbotComponents';
 import Home from './pages/Home';
+import ChatbotComponent from './components/chatbot/chatbotComponents';
 
 
 const App = () => {
