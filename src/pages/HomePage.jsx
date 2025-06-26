@@ -6,7 +6,7 @@ const HomePage = () => {
         <div>
             <Header/>
             <h1> Welcome to Vivekanand College </h1>
-            <img src="C:\Users\Lenovo\Downloads\WhatsApp Image 2025-06-23 at 6.12.04 PM.jpeg" width="1300" height="300"/>
+            <img src="/images/vck.jpeg" width="1300" height="300"/>
             <p>
         <strong>Vivekanand College</strong> is a premier educational institution dedicated to fostering academic excellence,
          innovation, and holistic development. Established in [Year of Establishment, e.g., 1980], 
@@ -27,6 +27,10 @@ const HomePage = () => {
         <li><strong>Strong Placements:</strong> Excellent career opportunities with leading companies.</li>
       </ul>
 
+        <h3>Campus Life & Facilities </h3>
+        <img src="/images/vck2.jpg"width="600" height="300"/>
+        <img src="/images/vck1.jpeg"width="600" height="300"/>
+        
       <p>Ready to start your journey with us?</p>
       <button onClick={() => alert('Apply Now clicked!')}>Apply Now</button>
 
