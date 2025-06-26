@@ -4,8 +4,8 @@ import AboutPage from './pages/AboutPage';
 import CoursePage from './pages/CoursePage';
 import AddmissionPage from './pages/AdmissionPage';
 import ContactPage from './pages/ContactPage';
-import HomePage from './pages/HomePage.Jsx';
 import ChatbotComponent from './components/chatbot/chatbotComponents';
+import Home from './pages/Home';
 
 
 const App = () => {
@@ -14,7 +14,8 @@ const App = () => {
     <div>
       <Router>
         <Routes>
-          <Route path="/" element={<HomePage/>}/>
+          <Route path="/" element={<Home/>}/>
+          <Route path="/" element={<Home/>}/>
           <Route path="/about" element={<AboutPage/>}/>
           <Route path="/course" element={<CoursePage/>}/>
           <Route path="/contact" element={<ContactPage/>}/>
