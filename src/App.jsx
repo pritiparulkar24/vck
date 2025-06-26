@@ -9,6 +9,7 @@ import ChatbotComponent from './components/chatbot/chatbotComponents';
 
 
 
+
 const App = () => {
 
   return (
@@ -22,7 +23,7 @@ const App = () => {
           <Route path="/contact" element={<ContactPage/>}/>
           <Route path="/admission" element={<AddmissionPage/>}/>
         </Routes>
-        <ChatbotComponent/>
+      <ChatbotComponent/>
       </Router>
     </div>
   )
