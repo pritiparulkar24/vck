@@ -5,9 +5,9 @@ import CoursePage from './pages/CoursePage';
 import AddmissionPage from './pages/AdmissionPage';
 import ContactPage from './pages/ContactPage';
 import Home from './pages/Home';
-import ChatbotComponent from './components/chatbot/chatbotComponents';
-import DeveloperInfoPopup from './components/DeveloperInfoPopup';  // Import the popup component
+import DeveloperInfoPopup from './components/DeveloperInfoPopup'; 
 import { useState } from 'react';
+import ChatbotComponent from './components/chatbot/chatbotComponents';
 
 const App = () => {
   const [showPopup, setShowPopup] = useState(true);
@@ -38,7 +38,7 @@ const App = () => {
         </Routes>
 
         {/* Chatbot Component (Should appear across all routes) */}
-        <ChatbotComponent />
+        <ChatbotComponent/>
       </Router>
     </div>
   );
